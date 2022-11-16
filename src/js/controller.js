@@ -11,10 +11,6 @@ import 'core-js/stable'; // for all other polyfills
 import 'regenerator-runtime/runtime'; // for async await
 import { async } from 'regenerator-runtime';
 
-// if (module.hot) {
-//   module.hot.accept();
-// }
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
